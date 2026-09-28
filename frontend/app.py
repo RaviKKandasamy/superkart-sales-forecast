@@ -4,12 +4,12 @@ import pandas as pd
 import requests
 
 # Base URL of the Flask backend
-# BACKEND_URL = "http://backend:7860"
+BACKEND_URL = "http://backend:7860"
 # BACKEND_URL = "https://organic-yodel-5g9jvjjqr7vw3x6r-7860.app.github.dev"
 # BACKEND_URL= "http://superkart-backend:7860"
 #BACKEND_URL="https://refactored-garbanzo-r4xq7qqg65j6hpww9-7860.app.github.dev"
 #BACKEND_URL = "http://localhost:7860"
-BACKEND_URL = "http://host.docker.internal:7860"
+
 
 # Page title
 st.title("SuperKart System")
